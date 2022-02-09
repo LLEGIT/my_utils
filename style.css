@@ -1,0 +1,43 @@
+* {
+    padding: 0;
+    margin: 10px;
+    font-family: Ubuntu;
+}
+
+body {
+    background-color: black;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+h1 {
+    color: white;
+}
+
+thead td {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+footer {
+    color: white;
+    position: absolute;
+    bottom: 0;
+}
+
+.listsContainer {
+    color: white;
+    display: grid;
+}
+
+.toDoListContainer {
+    grid-column: 1 / 2;
+}
+
+.doneListContainer {
+    grid-column: 2/2;
+}
